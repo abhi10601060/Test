@@ -34,7 +34,7 @@ fun BorderedTextBox(
     backgroundColor: Color = Color.Black,
     borderColor: Color = Color.White,
     borderThickNess: Dp = 1.dp,
-    cornerRadius: Dp = 5.dp,
+    cornerRadius: Dp = 10.dp,
     readonly: Boolean = false,
     maxLines: Int = 1,
     placeholder: String = "",
@@ -53,7 +53,7 @@ fun BorderedTextBox(
         decorationBox = { innerTextField ->
             Box(modifier = modifier
                 .border(width = borderThickNess, color = borderColor, shape = RoundedCornerShape(cornerRadius))
-                .background(color = backgroundColor)
+                .background(shape = RoundedCornerShape(cornerRadius), color = backgroundColor)
                 .padding(Dp(fontSize.value / 3))
             ){
                 if (placeholder.isNotEmpty() && value.isEmpty()) Text(modifier = Modifier.alpha(0.5f) ,text = placeholder, color = Color.LightGray, fontSize = fontSize)

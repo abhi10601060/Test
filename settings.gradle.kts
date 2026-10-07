@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "test"
 include(":app")
 include(":core:ui")
+include(":feature:login")

@@ -60,10 +60,10 @@ fun <T> BorderedTextDropdown(
     fontColor: Color = Color.White,
     fontSize: TextUnit = 24.sp,
     fontWeight: FontWeight = FontWeight.Normal,
-    backgroundColor: Color = Color.Black,
+    backgroundColor: Color = Color.DarkGray,
     borderColor: Color = Color.White,
     borderThickness: Dp = 1.dp,
-    cornerRadius: Dp = 5.dp,
+    cornerRadius: Dp = 10.dp,
     dropdownBackgroundColor: Color = backgroundColor,
     dropdownBorderColor: Color = borderColor
 ) {
