@@ -7,5 +7,6 @@ data class LoginScreenData(
     val enteredAdminUser: String = "",
     val enteredAdminPass: String = "",
     val languageList: List<String> = listOf("en"),
-    val selectedLanguage: String = "en"
+    val selectedLanguage: String = "en",
+    val isEnteringAdminCreds: Boolean = false
 )
