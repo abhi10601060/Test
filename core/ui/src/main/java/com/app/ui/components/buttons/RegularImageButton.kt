@@ -20,7 +20,7 @@ import androidx.compose.ui.unit.dp
 fun RegularImageButton(
     modifier: Modifier = Modifier,
     onClick: () -> Unit,
-    icon: ImageVector,
+    icon: ImageVector = Icons.Default.KeyboardReturn,
     tint: Color = Color.Black
 ) {
     Button(

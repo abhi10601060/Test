@@ -27,7 +27,7 @@ fun RegularTextButton(
     Button(
         modifier = modifier.height(40.dp).padding(0.dp),
         shape = RoundedCornerShape(10.dp),
-        contentPadding = PaddingValues(4.dp),
+        contentPadding = PaddingValues(horizontal = 10.dp),
         colors = ButtonDefaults.buttonColors(containerColor = Color.White),
         onClick = {
             onClick()
