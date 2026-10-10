@@ -40,7 +40,7 @@ dependencies {
 
 
     // icons
-    implementation("androidx.compose.material:material-icons-extended:1.7.8")
+    api("androidx.compose.material:material-icons-extended:1.7.8")
 
     // lottie animation
     implementation("com.airbnb.android:lottie-compose:6.7.1")

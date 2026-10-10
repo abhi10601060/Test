@@ -6,5 +6,7 @@ data class LocationSelectionData(
     val groups: List<String> = listOf("RHF", "LHF"),
     val selectedLocation: String = "",
     val selectedShift: String = "",
-    val selectedGroups: List<String> = listOf()
+    val selectedGroups: List<String> = listOf(),
+    val activities: List<String> = listOf(),
+    val selectedActivity: String? = null,
 )

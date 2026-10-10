@@ -7,7 +7,6 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -19,10 +18,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.app.ui.components.buttons.RegularImageButton
 import com.app.ui.components.buttons.RegularTextButton
 import com.app.ui.components.checkbox.HorizontalScrollableCheckBox
-import com.app.ui.components.extension.dashedBottomBorder
 import com.app.ui.components.radio_buttons.HorizontalScrollableRadioButtons
 
 @Composable
@@ -133,6 +130,9 @@ fun LocationSelectionScreenUi(
     }
 
 }
+
+@Preview(device ="spec:width=411dp,height=891dp,orientation=landscape")
+annotation class LandscapePreview()
 
 @Preview(device ="spec:width=411dp,height=891dp,orientation=landscape")
 @Composable
