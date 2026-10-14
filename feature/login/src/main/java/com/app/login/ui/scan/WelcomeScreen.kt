@@ -40,6 +40,7 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -253,7 +254,7 @@ fun InspectionDetailsSection(
             modifier = Modifier
                 .padding(horizontal = 20.dp)
                 .fillMaxWidth()
-                .background(shape = RoundedCornerShape(30.dp), color = Color.DarkGray)
+                .background(shape = RoundedCornerShape(30.dp), color = Color.DarkGray.copy(alpha = 0.6f))
                 .padding(5.dp),
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
