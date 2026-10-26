@@ -31,7 +31,7 @@ fun BorderedTextBox(
     fontColor: Color = Color.White,
     fontWeight: FontWeight = FontWeight.Normal,
     fontSize: TextUnit = 24.sp,
-    backgroundColor: Color = Color.Black,
+    backgroundColor: Color = Color.DarkGray,
     borderColor: Color = Color.White,
     borderThickNess: Dp = 1.dp,
     cornerRadius: Dp = 10.dp,

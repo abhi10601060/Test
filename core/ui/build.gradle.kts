@@ -51,4 +51,4 @@ dependencies {
     implementation("androidx.camera:camera-camera2:${camerax_version}")
     implementation("androidx.camera:camera-lifecycle:${camerax_version}")
     implementation("androidx.camera:camera-view:${camerax_version}")
-    implementation("com.google.mlkit:barcode-scanning:17.3.0")}
+    api("com.google.mlkit:barcode-scanning:17.3.0")}
